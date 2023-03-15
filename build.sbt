@@ -34,7 +34,7 @@ lazy val root = (project in file("."))
     sbtPlugin := true,
     versionScheme := Some("semver-spec"),
     libraryDependencies += "com.lihaoyi" %% "fastparse" % "2.3.3",
-    libraryDependencies += "io.github.ablearthy" %% "td-tl-parser" % "1.0.0",
+    libraryDependencies += "io.github.ablearthy" %% "td-tl-parser" % "1.0.3",
     libraryDependencies += "org.scalameta" %% "scalameta" % "4.7.5",
     libraryDependencies ++= Seq(
       "io.circe" %% "circe-core",
